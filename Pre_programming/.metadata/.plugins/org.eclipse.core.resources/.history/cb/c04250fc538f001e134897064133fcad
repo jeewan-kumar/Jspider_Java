@@ -1,0 +1,31 @@
+package com.collection;
+
+import java.util.Vector;
+
+public class VectorExample {
+	public static void main(String[] args) {
+        // Vector Example
+		Vector a = new Vector();
+		a.add(5);
+	 	a.add("hy");
+		a.add('A');
+		a.add("Hello");
+		a.add(true);
+		a.add(9.8);
+		a.add(9.8);
+		a.add(null);
+		a.add(null);
+		
+	 	System.out.println(a);
+		
+//        Vector<String> vector = new Vector<>();
+//        vector.add("Cat");
+//        vector.add("Dog");
+//        vector.add("Fish");
+//
+//        System.out.println("Vector Elements:");
+//        for (String animal : vector) {
+//            System.out.println(animal);
+//        }
+    }
+}

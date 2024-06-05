@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\java\jjf-cjd-a3\Jeewan\Part-3\Collection\02-11-23\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1696264553.index
+198301716.index

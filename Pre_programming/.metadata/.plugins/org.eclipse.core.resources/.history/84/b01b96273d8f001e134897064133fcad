@@ -1,0 +1,18 @@
+package com.collection;
+
+import java.util.TreeSet;
+
+public class TreeSetExample {
+	public static void main(String[] args) {
+        // TreeSet Example
+        TreeSet<String> treeSet = new TreeSet<>();
+        treeSet.add("Cat");
+        treeSet.add("Dog");
+        treeSet.add("Fish");
+
+        System.out.println("TreeSet Elements:");
+        for (String animal : treeSet) {
+            System.out.println(animal);
+        }
+    }
+}

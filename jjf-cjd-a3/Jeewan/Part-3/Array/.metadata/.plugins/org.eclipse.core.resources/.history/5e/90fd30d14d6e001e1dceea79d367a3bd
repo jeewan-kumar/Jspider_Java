@@ -1,0 +1,10 @@
+package com.Arrays;
+
+public class IntArray {
+	public static void main(String[] args) {
+		int a[] = {5,8,55,65,88,65};
+		//IntArray a1[] = new IntArray();
+		System.out.println(a1);
+		
+	}
+}

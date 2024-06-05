@@ -1,0 +1,19 @@
+package com.collection;
+
+import java.util.HashSet;
+
+public class HashSetExample {
+	public static void main(String[] args) {
+        // HashSet Example
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("Apple");
+        hashSet.add("Banana");
+        hashSet.add("Orange");
+        hashSet.add("Banana"); // Adding a duplicate, won't be stored
+
+        System.out.println("HashSet Elements:");
+        for (String fruit : hashSet) {
+            System.out.println(fruit);
+        }
+    }
+}

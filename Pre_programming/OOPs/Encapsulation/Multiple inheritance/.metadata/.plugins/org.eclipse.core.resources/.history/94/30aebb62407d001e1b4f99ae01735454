@@ -1,0 +1,6 @@
+package com.multiple;
+
+public class Bike {
+	int bPrice = 140;
+
+}

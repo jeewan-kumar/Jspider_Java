@@ -1,0 +1,18 @@
+package Exception;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class B {
+	public static void main(String[] args)throws FileNotFoundException {
+		FileOutputStream f = new FileOutputStream("D://java/Jeewan.java");
+		System.out.println("created");
+//		try {
+//			
+//		}
+//			catch(FileNotFoundException d) {
+//				System.out.println("check file location");
+//			}
+//		}
+	}
+
+

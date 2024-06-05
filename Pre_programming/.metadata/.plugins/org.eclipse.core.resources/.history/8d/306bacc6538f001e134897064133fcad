@@ -1,0 +1,31 @@
+package com.collection;
+
+import java.util.LinkedList;
+
+public class LinkedListExample {
+	public static void main(String[] args) {
+		LinkedList a = new LinkedList();
+		
+		a.add(5);
+	 	a.add("hy");
+		a.add('A');
+		a.add("Hello");
+		a.add(true);
+		a.add(9.8);
+		a.add(9.8);
+		a.add(null);
+		a.add(null);
+		
+	 	System.out.println(a);	
+        // LinkedList Example
+//        LinkedList<String> linkedList = new LinkedList<>();
+//        linkedList.add("Red");
+//        linkedList.add("Green");
+//        linkedList.add("Blue");
+//
+//        System.out.println("LinkedList Elements:");
+//        for (String color : linkedList) {
+//            System.out.println(color);
+//        }
+    }
+}

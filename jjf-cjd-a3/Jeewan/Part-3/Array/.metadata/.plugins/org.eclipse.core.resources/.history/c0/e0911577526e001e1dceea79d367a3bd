@@ -1,0 +1,31 @@
+package com.Arrays;
+
+public class IntArray {
+	public static void main(String[] args) {
+		int a[] = {5,8,55,65,88,65};
+		//IntArray a1[] = new IntArray();
+		System.out.println("Array Reference: "+a);
+		System.out.println("***** Manually Print *****");
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println(a[4]);
+		System.out.println(a[5]);
+		
+		System.out.println("***** usint for loop *****");
+		
+		for(int i=0; i<=a.length; i++) {
+			System.out.println(a[i]);
+		}
+		
+		System.out.println("***** usint while loop *****");
+		
+		int i =0;
+		
+		while(i<=a.length){
+			System.out.println(a[i]);
+			i++;
+		}
+	}
+}

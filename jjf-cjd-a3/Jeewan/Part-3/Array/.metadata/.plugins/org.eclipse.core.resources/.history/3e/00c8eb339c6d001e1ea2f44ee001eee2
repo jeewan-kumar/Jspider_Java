@@ -1,0 +1,9 @@
+package com.Arrays;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		int []a = { 4,8,9,5,3};
+		System.out.println(a);
+	}
+
+}

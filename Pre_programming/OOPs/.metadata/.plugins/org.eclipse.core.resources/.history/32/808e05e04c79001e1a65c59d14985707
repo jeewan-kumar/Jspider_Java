@@ -1,0 +1,42 @@
+package com.oops.Hybrid;
+
+public class M {
+	String name;
+	int roll;
+	long phon;
+	
+	public M(String name, int roll, long phon) {
+		this.name = name;
+		this.roll = roll;
+		this.phon = phon;
+	}
+
+	public M(String name) {
+		this.name = name;
+	}
+
+	public M() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public void getName() {
+		if (condition) {
+			System.out.println(name);
+		}
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public long getPhon() {
+		return phon;
+	}
+
+	public void setRoll(int roll) {
+		this.roll = roll;
+	}
+	
+}
+
